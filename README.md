@@ -1,4 +1,4 @@
-# mubiforyou
+# Mubi for you
 
 ## Project setup
 ```
