@@ -1,6 +1,6 @@
 <template>
     <div class="home">
-        <h1 class="titulo">{{ buscando ? 'Resultados de búsqueda' : 'Películas Populares' }}</h1>
+        <h1 class="titulo">{{ buscando ? 'Resultados de búsqueda' : 'PELÍCULAS POPULARES' }}</h1>
 
         <SearchBar @buscar="buscarPeliculas" @limpiar="cargarPopulares" />
 
@@ -89,7 +89,10 @@ export default {
     text-align: center;
     font-size: 1.8rem;
     margin-bottom: 8px;
-    color:#1150b6
+    color: #1150b6;
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal
 }
 
 .grid {

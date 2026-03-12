@@ -35,8 +35,9 @@ export default { name: 'NavBar' }
 }
 
 .slogan {
-  color: #aaaaaa;
+  color: #ffffff;
   font-size: 0.9rem;
+  font-weight: bold;
 }
 
 @media (max-width: 600px) {

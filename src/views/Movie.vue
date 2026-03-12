@@ -99,10 +99,14 @@ export default {
 h1 {
     font-size: 2rem;
     margin-bottom: 8px;
+    color: #0d1a55;
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal
 }
 
 .tagline {
-    color: #aaa;
+    color: #000000;
     font-style: italic;
     margin-bottom: 16px;
 }
@@ -123,7 +127,7 @@ h1 {
 
 .overview {
     line-height: 1.7;
-    color: #ccc;
+    color: #000000;
     margin-bottom: 20px;
 }
 
@@ -134,7 +138,7 @@ h1 {
 }
 
 .genre-tag {
-    background: #e50914;
+    background: #0b269c;
     padding: 4px 12px;
     border-radius: 20px;
     font-size: 0.85rem;
