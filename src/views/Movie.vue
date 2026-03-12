@@ -40,7 +40,6 @@ export default {
         }
     },
     mounted() {
-        // this.$route.params.id obtiene el ID de la URL (/movie/123)
         this.cargarDetalle(this.$route.params.id)
     },
     methods: {
@@ -82,7 +81,6 @@ export default {
     display: flex;
     gap: 32px;
     flex-wrap: wrap;
-    /* En móvil se apilan verticalmente */
 }
 
 .detail-img {

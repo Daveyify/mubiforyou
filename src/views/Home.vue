@@ -33,13 +33,12 @@ export default {
     components: { MovieCard, SearchBar },
     data() {
         return {
-            peliculas: [],   // Array con las películas
-            cargando: true,  // Muestra el spinner de carga
-            error: null,     // Mensaje de error si falla la API
-            buscando: false  // Indica si estamos en modo búsqueda
+            peliculas: [],   
+            cargando: true,  
+            error: null,     
+            buscando: false  
         }
     },
-    // mounted() se ejecuta cuando el componente ya está en pantalla
     mounted() {
         this.cargarPopulares()
     },
