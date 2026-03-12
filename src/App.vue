@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    < NavBar />
-    < router-view />
+    <NavBar />
+    <router-view />
   </div>
 </template>
 
@@ -25,12 +25,11 @@ export default {
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #0f0f0f;
+  background-color: #ffffff;
   color: #ffffff;
 }
 
 #app {
   min-height: 100vh;
 }
-
 </style>
